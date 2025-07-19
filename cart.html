@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart - Blinkit</title>
+    <link rel="icon" href="blink.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cart-container {
+            padding: 20px;
+        }
+        .cart-item {
+            background: white;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 500px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+        .total {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 20px;
+            text-align: right;
+        }
+        .button{
+            padding:10px 15px;
+            margin:0px 25px;
+            cursor:pointer;
+            text-decoration:none;
+            margin-bottom:90px;
+            background-color: rgb(13, 254, 5);
+        }
+        .place-order{
+            float:right;
+            padding:10px 15px;
+            margin:0px 25px;
+            background-color:rgb(17, 235, 17);
+            color:black;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="padding: 15px;"><span style="color:rgb(248, 204, 9);">blink</span><span style="color:green;">it</span> - Cart</h1>
+    </header>
+
+    <div class="cart-container" id="cart-container">
+    
+    </div>
+    <a href="blinkit1.html"> <button class="button" >Continue shopping</button></a>
+    <button class="place-order"   onclick="call()">Place Order</button>
+    
+
+    <script>
+        function renderCart() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || {};
+            const container = document.getElementById('cart-container');
+            container.innerHTML = ""; 
+            let total = 0;
+    
+            if (Object.keys(cart).length === 0) {
+                container.innerHTML = "<p>Your cart is empty.</p>";
+            } else {
+                for (let name in cart) {
+                    const item = cart[name];
+                    const itemTotal = item.price * item.quantity;
+                    total += itemTotal;
+    
+                    const div = document.createElement('div');
+                    div.className = 'cart-item';
+                    div.innerHTML = `
+                        <div>
+                            <strong>${name}</strong><br>
+                            ₹${item.price} x ${item.quantity}
+                        </div>
+                        <div>
+                            
+                            <strong>₹${itemTotal}</strong><br>
+                            <button onclick="removeFromCart('${name}')" style="margin-top: 5px; background-color: red; color: white; border: none; padding: 5px 10px; border-radius: 5px;cursor:pointer;">Remove</button>
+                        </div>
+                    `;
+                    container.appendChild(div);
+                }
+    
+                const totalDiv = document.createElement('div');
+                totalDiv.className = 'total';
+                totalDiv.innerHTML = `Total: ₹${total}`;
+                container.appendChild(totalDiv);
+            }
+        }
+    
+        function removeFromCart(name) {
+            let cart = JSON.parse(localStorage.getItem("cart")) || {};
+            if (cart[name]) {
+                cart[name].quantity -= 1;
+                if (cart[name].quantity <= 0) {
+                    delete cart[name];
+                }
+                localStorage.setItem("cart", JSON.stringify(cart));
+                renderCart();
+            }
+        }
+    
+        function call() {
+            const isLoggedIn = sessionStorage.getItem("isLoggedIn");
+        const cart = JSON.parse(localStorage.getItem("cart")) || {};
+        
+        let total = 0;
+        for (let item in cart) {
+            total += cart[item].price * cart[item].quantity;
+        }
+
+        if (!isLoggedIn) {
+            alert("Please log in before placing your order.");
+            
+            window.location.href = "login.html";
+            return ;
+        }
+
+        if (total > 0) {
+            alert(`Please Pay ₹ ${total} to place the order`);
+        } else {
+            alert("Please add items to the cart");
+        }
+    }
+    
+        
+        renderCart();
+    </script>
+    
+</body>
+</html>

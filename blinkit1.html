@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="blink.jpeg">
+  <title>Blinkit - Home</title>
+  
+  <link rel="stylesheet" href="style.css"/> 
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <h1><span style="color:rgb(248, 204, 9);">blink</span><span style="color:green;">it</span></h1>
+      <div class="delivery-info">
+        <p><b>Delivery in 10 minutes</b></p>
+        <p style="color: green;">Rajanukunte, Bangalore 560064</p>
+      </div>
+    </div>
+
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="Search products..." />
+      <button class="search-button"><i class="fas fa-search"></i></button>
+    </div>
+    
+    <div>
+    <b>  <a href="login.html" style="text-decoration:none;" >Login</a></b>
+    </div>
+
+    <a href="cart.html" style="text-decoration: none;">
+      <div class="cart-section">
+        <i class="fas fa-shopping-cart"></i>
+        ₹<span class="cart-total">0</span>
+      </div>
+    </a>
+  </header>
+
+  <div class="content-container">
+    <div class="sidebar">
+      <div class="sidebar-item" data-category="Milk"><img src="nandini.jpeg" alt="Milk">Milk</div>
+      <div class="sidebar-item" data-category="Bread & Pav"><img src="bread.jpeg" alt="Bread">Bread & Pav</div>
+      <div class="sidebar-item" data-category="Eggs"><img src="eggs.webp" alt="Eggs">Eggs</div>
+      <div class="sidebar-item" data-category="Cereals"><img src="chocos.jpg" alt="Cereal">Cereals</div>
+      <div class="sidebar-item" data-category="Peanut Butter"><img src="butter.webp" alt="Butter">Peanut Butter</div>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card" data-price="30">
+        <img src="amul.png" alt="Amul Milk" >
+        <p class="product-name">Amul Toned Milk<br> (450 ml)</p>
+        <p>₹30</p>
+        <button class="add-btn">Add</button>
+        
+      </div>
+      <div class="product-card" data-price="24">
+        <img src="nandini.jpeg" alt="Nandini Milk" >
+        <p class="product-name">Nandini Fresh Milk <br>(500 ml)</p>
+        <p>₹24</p>
+        <button class="add-btn">Add</button>
+      </div>
+     
+      <div class="product-card" data-price="260">
+        <img src="butter.webp" alt="Peanut Butter" >
+        <p class="product-name">Peanut Butter <br>(1.25 kg)</p>
+        <p>₹260</p>
+        <button class="add-btn">Add</button>
+      </div>
+      <div class="product-card" data-price="50">
+        <img src="wheat.webp" alt="Wheat Bread" >
+        <p class="product-name">Britannia Wheat Bread <br>(400 g)</p>
+        <p>₹50</p>
+        <button class="add-btn">Add</button>
+      </div>
+      <div class="product-card" data-price="110">
+        <img src="panner.jpg" alt="Paneer" >
+        <p class="product-name">Nandini Paneer<br> (200 g) </p>
+        <p>₹110</p>
+        <button class="add-btn">Add</button>
+      </div>
+      <div class="product-card" data-price="95">
+        <img src="yoga.jpeg" alt="YogaBar" >
+        <p class="product-name">Yogabar Chocolate Chunk <br>(35 g)</p>
+        <p>₹95</p>
+        <button class="add-btn">Add</button>
+      </div>
+      <div class="product-card" data-price="50">
+        <img src="kissan.jpeg" alt="Kissan" >
+        <p class="product-name">Kissan Fresh Tomato Sauce <br>(500 g)</p>
+        <p>₹50</p>
+        <button class="add-btn">Add</button>
+      </div>
+      <div class="product-card" data-price="40">
+        <img src="jimjam.jpeg" alt="Jimjam" >
+        <p class="product-name">JimJam <br>(130 g)</p>
+        <p>₹40</p>
+        <button class="add-btn">Add</button>
+      </div>
+    </div>
+  </div>
+  
+  <footer style="background-color: #ffffff; border-top: 1px solid #ddd; padding: 20px 40px; text-align: center; margin-top: 20px;">
+    <div style="margin-bottom: 10px;">
+        <a href="https://www.facebook.com/blinkit.india/" target="_blank" style="margin: 0 10px; color: #3b5998; font-size: 20px;"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/letsblinkit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" style="margin: 0 10px; color:black; font-size: 20px;"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/letsblinkit/?hl=en" target="_blank" style="margin: 0 10px; color: #e4405f; font-size: 20px;"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p style="font-size: 14px; color: #666;">  Blinkit. All rights reserved.</p>
+    <p style="font-size: 13px; color: #888;">Blinkit delivers groceries, essentials & more in minutes. Fast, reliable & convenient.</p>
+  </footer>
+
+  <script>
+    function updateCartIcon() {
+      const cart = JSON.parse(localStorage.getItem("cart")) || {};
+      let total = 0;
+
+      for (let item in cart) {
+        total += cart[item].price * cart[item].quantity;
+      }
+
+      document.querySelector(".cart-total").textContent = total;
+    }
+
+    updateCartIcon();
+
+    document.querySelectorAll(".product-card").forEach(card => {
+      let quantity = 0;
+      const price = parseInt(card.getAttribute("data-price"));
+      const name = card.querySelector(".product-name").textContent;
+      const addBtn = card.querySelector(".add-btn");
+
+      addBtn.addEventListener("click", () => {
+        let cart = JSON.parse(localStorage.getItem("cart")) || {};
+        if (cart[name]) {
+          cart[name].quantity += 1;
+        } else {
+          cart[name] = { price: price, quantity: 1 };
+        }
+        localStorage.setItem("cart", JSON.stringify(cart));
+        addBtn.textContent = `Added (${cart[name].quantity})`;
+        updateCartIcon();
+      });
+    });
+
+    document.querySelector(".search-input").addEventListener("input", function () {
+      let searchValue = this.value.toLowerCase();
+      document.querySelectorAll(".product-card").forEach(card => {
+        let name = card.querySelector(".product-name").textContent.toLowerCase();
+        card.style.display = name.includes(searchValue) ? "block" : "none";
+      });
+    });
+    
+    
+    const productGrid = document.querySelector(".product-grid");
+
+document.querySelectorAll(".sidebar-item").forEach(item => {
+  item.addEventListener("click", function() {
+    const category = this.dataset.category;
+
+    
+    const data = {
+      "Milk": [
+        { "name": "Amul Toned Milk (450 ml)", "price": 30, "image": "amul.png" },
+        { "name": "Nandini Fresh Milk (500 ml)", "price": 24, "image": "nandini.jpeg" }
+      ],
+      "Bread & Pav": [
+        { "name": "Britannia Wheat Bread (400 g)", "price": 50, "image": "wheat.webp" }
+      ],
+      "Eggs": [
+        { "name": "Farm Fresh Eggs (6 pcs)", "price": 60, "image": "eggs.webp" }
+      ],
+      "Cereals":[{ "name": "Chocos ", "price": 120, "image":"chocos.jpg"
+            }],
+            "Peanut Butter":[{ "name": "Peanut Butter ", "price": 260, "image":"butter.webp"
+            }]
+    };
+
+    const products = data[category] || [];
+
+  
+    productGrid.innerHTML = "";
+
+ 
+    products.forEach(product => {
+      const card = document.createElement("div");
+      card.className = "product-card";
+      card.setAttribute("data-price", product.price);
+      card.innerHTML = `
+        <img src="${product.image}" alt="${product.name}">
+        <p class="product-name">${product.name}</p>
+        <p>₹${product.price}</p>
+        <button class="add-btn">Add</button>
+      `;
+      productGrid.appendChild(card);
+
+   
+      card.querySelector(".add-btn").addEventListener("click", () => {
+        let cart = JSON.parse(localStorage.getItem("cart")) || {};
+        if (cart[product.name]) {
+          cart[product.name].quantity += 1;
+        } else {
+          cart[product.name] = { price: product.price, quantity: 1 };
+        }
+        localStorage.setItem("cart", JSON.stringify(cart));
+        card.querySelector(".add-btn").textContent = `Added (${cart[product.name].quantity})`;
+        updateCartIcon();
+      });
+    });
+  });
+});
+
+document.querySelectorAll(".details-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const description = btn.nextElementSibling;
+    if (description.style.display === "none") {
+      description.style.display = "block";
+      btn.textContent = "Hide Details";
+    } else {
+      description.style.display = "none";
+      btn.textContent = "Details";
+    }
+  });
+});
+
+
+
+  </script>
+</body>
+</html>
