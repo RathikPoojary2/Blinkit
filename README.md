@@ -22,4 +22,5 @@
   <li>Place orders (with a login check).</li>
 </ul>
 </p>
-<img src="C:\Users\rathi\OneDrive\Pictures\Screenshots\ss.png">
+
+![Main screen of the web application.](images/blink.jpeg)
