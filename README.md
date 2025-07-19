@@ -8,7 +8,7 @@
 <ul>
   <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#description">Description</a></li>
     <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#motivation">Motivation </a></li>
-  <li><a>Features</a></li>
+  <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#-features">Features</a></li>
   <li><a>Tech/Frameworks Used</a></li>
 </ul>
 
@@ -31,3 +31,5 @@
 <p>The Blinkit Clone project was developed to strengthen my skills in front-end web development and to better understand the core principles behind e-commerce platforms.By recreating the look and feel of Blinkit, I aimed to practice building a responsive and interactive user interface while simulating real-world features such as product search, category filtering, cart management, and login validation.</p>
 
 <h2> Features</h2>
+<h6>Realtime Search</h6>
+![Search.](images/ss.png)
