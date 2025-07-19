@@ -4,3 +4,10 @@
 
 
 <h2>Table of Contents</h2>
+
+<ul>
+  <li><a>Description</a></li>
+    <li><a>Motivation </a></li>
+  <li><a>Features</a></li>
+  <li><a>Tech/Frameworks Used</a></li>
+</ul>
