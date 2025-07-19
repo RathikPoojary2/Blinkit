@@ -32,4 +32,4 @@
 
 <h2> Features</h2>
 <h4>Realtime Search</h4>
-![Search.](images/search.mp4)
+![Search.](images/search.gif)
