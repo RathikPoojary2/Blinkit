@@ -6,10 +6,10 @@
 <h2>Table of Contents</h2>
 
 <ul>
-  <li><a href="disc">Description</a></li>
+  <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#description">Description</a></li>
     <li><a>Motivation </a></li>
   <li><a>Features</a></li>
   <li><a>Tech/Frameworks Used</a></li>
 </ul>
 
-<h2 class="disc">Description</h2>
+<h2>Description</h2>
