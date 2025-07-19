@@ -24,3 +24,6 @@
 </p>
 
 ![Main screen of the web application.](images/ss.png)
+
+<h2>Motivation</h2>
+<p>The project was built as a learning exercise to practice.Since the point of this project was not to make great UI/UX design choices, I chose to create a clone of a well established product as to shorten my learning time and not to focus on the wrong thing.</p>
