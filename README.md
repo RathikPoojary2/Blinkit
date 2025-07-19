@@ -23,4 +23,4 @@
 </ul>
 </p>
 
-![Main screen of the web application.](images/blink.jpeg)
+![Main screen of the web application.](images/ss.png)
