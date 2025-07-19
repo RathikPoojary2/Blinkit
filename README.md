@@ -31,5 +31,5 @@
 <p>The Blinkit Clone project was developed to strengthen my skills in front-end web development and to better understand the core principles behind e-commerce platforms.By recreating the look and feel of Blinkit, I aimed to practice building a responsive and interactive user interface while simulating real-world features such as product search, category filtering, cart management, and login validation.</p>
 
 <h2> Features</h2>
-<h6>Realtime Search</h6>
+<h4>Realtime Search</h4>
 ![Search.](images/search.mp4)
