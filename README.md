@@ -31,7 +31,16 @@
 <p>The Blinkit Clone project was developed to strengthen my skills in front-end web development and to better understand the core principles behind e-commerce platforms.By recreating the look and feel of Blinkit, I aimed to practice building a responsive and interactive user interface while simulating real-world features such as product search, category filtering, cart management, and login validation.</p>
 
 <h2> Features</h2>
-<h4>Realtime Search</h4>
-<p> Using the search you can filter the items</p>
+<h4> 1.Realtime Search</h4>
+<p> Using the search you can filter the items.Case-insensitive and instant filtering without page reload</p>
+
 
 ![Search](images/search1.gif)
+
+
+<h4>2.Sidebar with categories</h4>
+<p>Clicking on a category (Ex: Milk, Bread & Pav, Cereals) filters the product grid to show relevant items.
+
+Each category is linked to its own product data.</p>
+
+![Sidebar](images/sidebar.gif)
