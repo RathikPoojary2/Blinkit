@@ -10,6 +10,8 @@
     <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#motivation">Motivation </a></li>
   <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#-features">Features</a></li>
   <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#techframeworks-used">Tech/Frameworks Used</a></li>
+  <li><a href="">Installation</li>
+    <li><a href="">Architecture</li>
 </ul>
 
 <h2>Description</h2>
@@ -77,3 +79,17 @@ Each category is linked to its own product data.</p>
   <li><b>Icons      </b>    : Font Awesome</li>
   <li><b>Data Storage </b> : LocalStorage (Cart)  and SessionStorage(Login)</li>
 </ol>
+
+<h1>Installation</h1>
+<p>Clone the repository</p>
+<p>git clone https://github.com/RathikPoojary2/Blinkit </p>
+
+<h1>Architecture</h1>
+
+<pre>Blinkit-Clone/
+├── blinkit1.html    
+├── cart.html         
+├── login.html        
+├── style.css         
+├── images/           
+└── README.md </pre>
