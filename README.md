@@ -10,8 +10,8 @@
     <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#motivation">Motivation </a></li>
   <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#-features">Features</a></li>
   <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#techframeworks-used">Tech/Frameworks Used</a></li>
-  <li><a href="">Installation</li>
-    <li><a href="">Architecture</li>
+  <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#installation">Installation</li>
+    <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#architecture">Architecture</li>
 </ul>
 
 <h2>Description</h2>
