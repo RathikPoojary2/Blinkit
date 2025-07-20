@@ -34,4 +34,4 @@
 <h4>Realtime Search</h4>
 <p> Using the search you can filter the items</p>
 
-![Search](images/search.gif)
+![Search](images/search1.gif)
