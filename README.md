@@ -49,7 +49,7 @@ Each category is linked to its own product data.</p>
 <p>Products can be added to the cart, and the cart icon updates with the total price.</p>
 <p>Cart data persists across pages using localStorage.</p>
 
-![cart](images/cart.gif)
+![cart](images/cart1.gif)
 
 <h4>4. Cart Page</h4>
 <ul>
@@ -58,7 +58,7 @@ Each category is linked to its own product data.</p>
   <li>"Place Order" button with login check.</li>
 </ul>
 
-![cart1](images/cart1.gif)
+![cart1](images/cart.gif)
 
 <h4>5. Login Page</h4>
 <ul>
