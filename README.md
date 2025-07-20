@@ -9,7 +9,7 @@
   <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#description">Description</a></li>
     <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#motivation">Motivation </a></li>
   <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#-features">Features</a></li>
-  <li><a>Tech/Frameworks Used</a></li>
+  <li><a href="https://github.com/RathikPoojary2/Blinkit/blob/main/README.md#techframeworks-used">Tech/Frameworks Used</a></li>
 </ul>
 
 <h2>Description</h2>
