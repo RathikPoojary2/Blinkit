@@ -72,8 +72,8 @@ Each category is linked to its own product data.</p>
 <h1>Tech/Frameworks used</h1>
 
 <ol>
-  <li>Front-End : HTML,CSS,JavaScript</li>
-  <li>Framework : Angular JS for Login</li>
-  <li>Icon      : Font Awesome</li>
-  <li>Data Storage: LocalStorage (Cart)  and SessionStorage(Login)</li>
+  <li><b>Front-End </b>   : HTML,CSS,JavaScript</li>
+  <li><b>Frameworks  </b>  : Angular JS for Login</li>
+  <li><b>Icons      </b>    : Font Awesome</li>
+  <li><b>Data Storage </b> : LocalStorage (Cart)  and SessionStorage(Login)</li>
 </ol>
