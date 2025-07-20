@@ -68,3 +68,5 @@ Each category is linked to its own product data.</p>
 </ul>
 
 ![Login](images/login.gif)
+
+<h1>Tech/Frameworks used</h1>
