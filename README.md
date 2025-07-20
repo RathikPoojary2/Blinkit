@@ -70,3 +70,10 @@ Each category is linked to its own product data.</p>
 ![Login](images/login.gif)
 
 <h1>Tech/Frameworks used</h1>
+
+<ol>
+  <li>Front-End : HTML,CSS,JavaScript</li>
+  <li>Framework : Angular JS for Login</li>
+  <li>Icon      : Font Awesome</li>
+  <li>Data Storage: LocalStorage (Cart)  and SessionStorage(Login)</li>
+</ol>
