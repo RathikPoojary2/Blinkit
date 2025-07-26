@@ -16,7 +16,7 @@
 
 <h2>Description</h2>
 
-<p>The Blinkit Clone is a simple grocery e-commerce platform that mimics official <a href="https://blinkit.com/cn/milk/cid/14/922?utm_source=google&utm_medium=cpc&utm_campaign=21439030315&utm_content=169426454132&utm_term=blinkit&gad_source=1&gad_campaignid=21439030315&gbraid=0AAAAADfkql5eHadZMsPwKXNZ1WUIzw4lc&gclid=Cj0KCQjwhO3DBhDkARIsANxrhTpaH3Q7iczyEQZJDkYY5lqKohPLDOvGKu2HIhcd-Bd-f0rbDuZMYCkaAhs9EALw_wcB" >Blinkit </a> UI and features.</p>
+<p>The Blinkit Clone is a simple grocery e-commerce platform that mimics official <a href="https://blinkit.com/cn/milk/cid/14/922?utm_source=google&utm_medium=cpc&utm_campaign=21439030315&utm_content=169426454132&utm_term=blinkit&gad_source=1&gad_campaignid=21439030315&gbraid=0AAAAADfkql5eHadZMsPwKXNZ1WUIzw4lc&gclid=Cj0KCQjwhO3DBhDkARIsANxrhTpaH3Q7iczyEQZJDkYY5lqKohPLDOvGKu2HIhcd-Bd-f0rbDuZMYCkaAhs9EALw_wcB" style="text-decoration:none" >Blinkit </a> UI and features.</p>
 <p>It allows users to :<br>
 <ul>
   <li>Browse Products</li>
